@@ -1,0 +1,32 @@
+# 🔹 Virtual Environment
+venv/
+env/
+
+# 🔹 Python cache
+__pycache__/
+*.pyc
+
+# 🔹 Environment variables
+.env
+
+# 🔹 Jupyter checkpoints
+.ipynb_checkpoints/
+
+# 🔹 Data (VERY IMPORTANT)
+data/raw/
+data/processed/
+
+# 🔹 Outputs
+outputs/
+
+# 🔹 Models (decide below)
+models/trained_models/
+
+# 🔹 Logs
+*.log
+
+# 🔹 OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
