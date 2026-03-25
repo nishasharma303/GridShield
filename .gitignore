@@ -1,32 +1,36 @@
-# 🔹 Virtual Environment
+# ----------------------------
+# Python
+# ----------------------------
 venv/
-env/
-
-# 🔹 Python cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
 
-# 🔹 Environment variables
+# ----------------------------
+# Node / Frontend
+# ----------------------------
+node_modules/
+dist/
+build/
+.vite/
+
+# ----------------------------
+# Env files (IMPORTANT)
+# ----------------------------
 .env
 
-# 🔹 Jupyter checkpoints
-.ipynb_checkpoints/
-
-# 🔹 Data (VERY IMPORTANT)
-data/raw/
-data/processed/
-
-# 🔹 Outputs
-outputs/
-
-# 🔹 Models (decide below)
-models/trained_models/
-
-# 🔹 Logs
-*.log
-
-# 🔹 OS / IDE
+# ----------------------------
+# OS / Editor junk
+# ----------------------------
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
+
+# ----------------------------
+# Logs
+# ----------------------------
+*.log
