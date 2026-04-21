@@ -1,0 +1,35 @@
+# -------------------------
+# Node / Frontend
+# -------------------------
+node_modules/
+dist/
+.build/
+.env
+.env.local
+
+# -------------------------
+# Python / Backend
+# -------------------------
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# -------------------------
+# Data & ML artefacts
+# -------------------------
+backend/data/*
+backend/artefacts/*
+*.pkl
+*.joblib
+
+# (optional) keep structure but not files
+!backend/data/.gitkeep
+!backend/artefacts/.gitkeep
+
+# -------------------------
+# OS / misc
+# -------------------------
+.DS_Store
+Thumbs.db
