@@ -1,4 +1,4 @@
-# ⚡ GridShield+
+# ⚡ GridShield
 ### Renewable Grid Risk Intelligence System
 
 ---
